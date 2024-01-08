@@ -1,16 +1,42 @@
 # Mochila de Viagem
 
-## Visão Geral
+Esse é um projeto web que cria uma mochila de viagem interativa. Os itens são adicionados através de um formulário com campos para nome e quantidade.
+
+## Logo
 
 <div align="center">
-  <img src="img/proj1.png" alt="Imagem do Projeto">
+  <img src="img/proj1.png" alt="Imagem do Projeto" width="900">
 </div>
 
-### Após a adição de itens
+## Sumário
 
-<div align="center">
-  <img src="img/proj2.png" alt="Imagem do Projeto">
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Status](#status)
+- [Descrição](#descrição)
+- [Funcionalidades](#funcionalidades)
+- [Como Usar](#como-usar)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Autor](#autor)
+
+## Tecnologias Utilizadas
+
+<div style="display: flex; flex-direction: row;">
+  <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
+    <img src="img/html.png" alt="Logo HTML" width="100"/>
+  </div>
+  <div style="display: flex; justify-content: flex-center;">
+    <img src="img/css.png" alt="Logo CSS" width="100"/>
+  </div>
+  <div style="display: flex; justify-content: flex-end;">
+    <img src="img/js.png" alt="Logo CSS" width="100"/>
+  </div>
 </div>
+
+## Status
+
+<!-- ![Em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge) -->
+
+![Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
 
 ## Descrição
 
@@ -23,6 +49,12 @@ A "Mochila de Viagem" é uma aplicação simples que permite aos usuários criar
 - Remoção de itens: Os usuários podem remover itens da lista com um simples clique.
 - Armazenamento local: A aplicação utiliza armazenamento local para manter a lista mesmo ao recarregar a página.
 
+### Após a adição de itens
+
+<div align="center">
+  <img src="img/proj2.png" alt="Imagem do Projeto" width="900">
+</div>
+
 ## Como Utilizar
 
 1. Abra o arquivo `index.html` em seu navegador.
@@ -31,29 +63,12 @@ A "Mochila de Viagem" é uma aplicação simples que permite aos usuários criar
 4. Para atualizar a quantidade de um item, basta inserir os novos valores e clicar em "Adicionar" novamente.
 5. Para remover um item, clique no botão "X" ao lado do item na lista.
 
-## Tecnologias Utilizadas
-
-- HTML5
-- CSS3 (utilizando a fonte Roboto do Google Fonts)
-- JavaScript
-
 ## Estrutura do Projeto
 
 - `index.html`: Define a estrutura básica da página, incluindo o formulário e a lista de itens.
 - `style.css`: Folha de estilos para garantir uma apresentação agradável.
 - `main.js`: Script principal que gerencia a interação do usuário e o armazenamento local.
 
-## Armazenamento Local
+## Autor
 
-A aplicação utiliza o armazenamento local para manter a lista de itens, permitindo que os usuários acessem a mesma lista mesmo após recarregar a página. Cada item é identificado por um ID único.
-
-## Observações
-
-- Personalize o visual da aplicação ajustando o arquivo `style.css` conforme necessário.
-- Certifique-se de incluir os arquivos de estilos e ajustar os caminhos conforme necessário.
-
-Divirta-se utilizando a "Mochila de Viagem" e tenha uma viagem incrível!
-
----
-
-Substitua "link_para_sua_imagem.jpg" pelo link direto para a sua imagem.
+Desenvolvido por Diego Franco.
