@@ -40,7 +40,9 @@ Esse é um projeto web que cria uma mochila de viagem interativa. Os itens são 
 
 ## Descrição
 
-A "Mochila de Viagem" é uma aplicação simples que permite aos usuários criar uma lista de itens para levar em suas viagens. Com uma interface amigável, os usuários podem adicionar e gerenciar facilmente os itens que desejam incluir em sua mochila.
+A "Mochila de Viagem" é uma aplicação simples que permite aos usuários criar uma lista de itens para levar em suas viagens. 
+
+Com uma interface amigável, os usuários podem adicionar e gerenciar facilmente os itens que desejam incluir em sua mochila.
 
 ## Funcionalidades
 
